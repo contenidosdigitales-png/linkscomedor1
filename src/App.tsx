@@ -6,9 +6,6 @@ import {
   BookOpen, 
   HelpCircle,
   Share2,
-  Mail,
-  Phone,
-  MapPin,
   ExternalLink,
   ChevronRight,
   Filter,
@@ -291,46 +288,6 @@ export default function App() {
           </div>
         </section>
       </main>
-
-      {/* Institutional Footer */}
-      <footer className="bg-slate-900 text-slate-300 border-t border-slate-800 py-10 px-4 sm:px-6 lg:px-8 mt-12 text-xs">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="text-center md:text-left space-y-1">
-            <p className="font-bold text-white text-sm">
-              COLEGIO SAN AGUSTÍN • ORDEN DE SAN AGUSTÍN
-            </p>
-            <p className="text-slate-400">
-              Instituto Privado (A-151) Incorporado a la Enseñanza Oficial
-            </p>
-            <p className="text-slate-400 flex items-center justify-center md:justify-start gap-1">
-              <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-              Agüero 2320, C1425EHZ, Buenos Aires | Tel: 4802-4724
-            </p>
-          </div>
-
-          <div className="flex flex-col sm:flex-row items-center gap-4 text-center md:text-right">
-            <div>
-              <span className="block text-[11px] uppercase tracking-wider text-amber-400 font-semibold">
-                Canales de Contacto Comedor
-              </span>
-              <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 mt-1">
-                <a 
-                  href="mailto:comedor@isanagustin.edu.ar" 
-                  className="hover:text-white transition-colors underline decoration-slate-600 hover:decoration-white flex items-center justify-center gap-1"
-                >
-                  <Mail className="w-3.5 h-3.5 text-slate-400" /> comedor@isanagustin.edu.ar
-                </a>
-                <a 
-                  href="mailto:almuerzosecundaria@isanagustin.edu.ar" 
-                  className="hover:text-white transition-colors underline decoration-slate-600 hover:decoration-white flex items-center justify-center gap-1"
-                >
-                  <Mail className="w-3.5 h-3.5 text-slate-400" /> almuerzosecundaria@isanagustin.edu.ar
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
 
       {/* Interactive Modals */}
       <PautasModal
