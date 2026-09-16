@@ -1,0 +1,6 @@
+{
+  "name": "Portal de Comedor 2026 - Colegio San Agustín",
+  "description": "Acceso centralizado a formularios de almuerzo, tickets eventuales, cancelaciones, menú mensual y pautas oficiales 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
