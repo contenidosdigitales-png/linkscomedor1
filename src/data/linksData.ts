@@ -2,24 +2,13 @@ import { PortalLink } from '../types';
 
 export const INITIAL_LINKS: PortalLink[] = [
   {
-    id: 'ticket-eventual',
-    title: 'Ticket Eventual',
-    category: 'forms',
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfPe-2amXBUEu-PCEYGhogltWhMc1C8bhcIiSg43cc_VsaHrA/viewform',
-    badge: 'Formulario Google',
-    description: 'Solicitud de vale diario para alumnos que no asisten de manera fija al comedor.',
-    highlight: 'Tope de solicitud: hasta las 09:00 hs del mismo día',
-    priceTag: '$14.700 por día',
-    iconName: 'Ticket',
-  },
-  {
     id: 'inscripcion-almuerzo',
-    title: 'Inscripción Almuerzo',
+    title: 'Inscripción a Almuerzo',
     category: 'forms',
     url: 'https://docs.google.com/forms/d/e/1FAIpQLSevk9IYHdEhflnpwolk2Bw3oIcs0soOeHqGl4k_fe_60xvxZA/closedform',
     badge: 'Formulario Google',
     description: 'Inscripción fija mensual del servicio de almuerzo. Renovación automática mes a mes.',
-    highlight: 'Modificaciones: 72 hs hábiles antes de fin de mes',
+    highlight: 'Modificaciones: Abierto hasta el 28/9',
     priceTag: 'Vigencia mensual',
     iconName: 'ClipboardCheck',
   },
@@ -35,16 +24,19 @@ export const INITIAL_LINKS: PortalLink[] = [
     iconName: 'CalendarX',
   },
   {
-    id: 'menu-mensual',
-    title: 'Menú mensual',
-    category: 'menu',
-    url: 'https://aulas-gourmet-1euvywl.gamma.site/',
-    badge: 'Aulas Gourmet SRL',
-    description: 'Consulte el menú diario y la propuesta nutricional completa para el mes en curso.',
-    highlight: 'Menú balanceado supervisado por nutricionistas',
-    priceTag: 'Actualizado mensualmente',
-    iconName: 'Utensils',
+    id: 'ticket-eventual',
+    title: 'Ticket Eventual',
+    category: 'forms',
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfPe-2amXBUEu-PCEYGhogltWhMc1C8bhcIiSg43cc_VsaHrA/viewform',
+    badge: 'Formulario Google',
+    description: 'Solicitud de vale diario para alumnos que no asisten de manera fija al comedor.',
+    highlight: 'Tope de solicitud: hasta las 09:00 hs del mismo día',
+    priceTag: '$14.700 por día',
+    iconName: 'Ticket',
   },
+];
+
+export const PAUTAS_LINKS: PortalLink[] = [
   {
     id: 'pautas-inicial',
     title: 'Pautas nivel inicial 2026',
@@ -185,3 +177,6 @@ export const INITIAL_LINKS: PortalLink[] = [
     }
   }
 ];
+
+export const ALL_PORTAL_LINKS: PortalLink[] = [...INITIAL_LINKS, ...PAUTAS_LINKS];
+
