@@ -45,14 +45,14 @@ export const PAUTAS_LINKS: PortalLink[] = [
     badge: 'Google Drive PDF',
     description: 'Pautas de almuerzo, metodología, descanso y organización para salas de Nivel Inicial.',
     highlight: 'Avisar siempre por Handing a la maestra antes de las 09:00 hs',
-    priceTag: 'Menú: $11.600 / día',
+    priceTag: 'Menú: $12.150 / día',
     iconName: 'School',
     isPauta: true,
     pautaData: {
       level: 'Nivel Inicial',
       subtitle: 'Pautas de Almuerzo 2026',
       prices: {
-        menuRegular: '$11.600 por día (facturado a mes vencido con cuota)',
+        menuRegular: '$12.150 por día (facturado a mes vencido con cuota)',
         ticketEventual: '$15.500 por día (habilitada opción vale diario)',
       },
       deadlines: {
@@ -62,7 +62,7 @@ export const PAUTAS_LINKS: PortalLink[] = [
       keyPoints: [
         'Exclusivo para niños que asistan a la doble jornada (ambos turnos).',
         'Servicio a cargo de la empresa "AULAS GOURMET SRL".',
-        'El costo del menú por día es de $11.600 y se facturará al mes vencido junto con la cuota mensual.',
+        'El costo del menú por día es de $12.150 y se facturará al mes vencido junto con la cuota mensual.',
         'Las AUSENCIAS previstas se comunican mediante el formulario de CANCELACIÓN antes de las 09:00 hs del día a cancelar para evitar la facturación.',
         'IMPORTANTE: Siempre que haya una modificación (cancelación diaria, baja definitiva, alta) avisar en simultáneo por Handing a las maestras.',
         'La baja permanente de comedor se gestiona desde el formulario de bajas diarias (Tutorial Baja Definitiva).',
@@ -91,16 +91,16 @@ export const PAUTAS_LINKS: PortalLink[] = [
     badge: 'Google Drive PDF',
     description: 'Aranceles 1º a 7º grado, servicio de vianda desde 3º grado y normas de entrega.',
     highlight: 'Ticket Eventual hasta las 08:30 hs | Viandas por Portón 1 Gutiérrez',
-    priceTag: '1º/2º: $12.600 • 3º+: $13.400',
+    priceTag: '1º/2º: $13.200 • 3º+: $14.100',
     iconName: 'BookOpen',
     isPauta: true,
     pautaData: {
       level: 'Nivel Primario',
       subtitle: 'Pautas de Almuerzo 2026',
       prices: {
-        menuRegular: '1º y 2º grado: $12.600 / día | Resto (3º a 7º): $13.400 / día',
+        menuRegular: '1º y 2º grado: $13.200 / día | Resto (3º a 7º): $14.100 / día',
         ticketEventual: '$15.500 (solicitud hasta las 08:30 hs)',
-        vianda: 'A partir de 3º grado (consultar arancel)',
+        vianda: '$56.500 por mes (a partir de 3º grado)',
       },
       deadlines: {
         cancelacion: 'Antes de las 09:00 hs del día a cancelar para evitar facturación.',
@@ -110,13 +110,13 @@ export const PAUTAS_LINKS: PortalLink[] = [
       keyPoints: [
         'La INSCRIPCIÓN tiene vigencia mensual y se renueva automáticamente de mes a mes.',
         'Inscripción para días fijos en la semana (no conmutables en caso de ausencias).',
-        'Costo menú por día: $12.600 (1º y 2º grado) y $13.400 (resto de los alumnos).',
+        'Costo menú por día: $13.200 (1º y 2º grado) y $14.100 (resto de los alumnos).',
         'Ticket eventual: $15.500 solicitando hasta las 08:30 hs del mismo día.',
         'Baja permanente mediante formulario de bajas diarias (Tutorial Baja Definitiva).',
         'Para dar el alta en un servicio, deberá primero dar de baja el que tenga contratado sin excepción.'
       ],
       metodologia: [
-        'Servicio de vianda (disponible a partir de 3º grado).',
+        'Servicio de vianda (disponible a partir de 3º grado): $56.500 por mes.',
         'Embalaje: descartable de aluminio (bandejas 275 con tapa) con rótulo indeleble (nombre, apellido y grado).',
         'Lugar de entrega: al ingreso del turno mañana por el Portón 1 de Gutiérrez en los contenedores indicados.',
         'Solamente se recibirán bandejas que deban ser calentadas (no frizadas). Cada alumno debe llevar lonchera con alimentos fríos.',
@@ -138,16 +138,16 @@ export const PAUTAS_LINKS: PortalLink[] = [
     badge: 'Google Drive PDF',
     description: 'Pautas para 1º a 3º año: servicio de comedor, viandas e ingreso por Portón Agüero.',
     highlight: 'Ticket Eventual hasta las 09:00 hs | Comedor 3er piso',
-    priceTag: 'Menú: $13.400 • Vianda',
+    priceTag: 'Menú: $14.100 • Vianda: $56.500',
     iconName: 'GraduationCap',
     isPauta: true,
     pautaData: {
       level: 'Nivel Medio (Secundario)',
       subtitle: 'Pautas de Almuerzo 2026',
       prices: {
-        menuRegular: '$13.400 por día (facturado a mes vencido con la cuota)',
+        menuRegular: '$14.100 por día (facturado a mes vencido con la cuota)',
         ticketEventual: '$15.500 c/u (horario tope 09:00 hs del mismo día)',
-        vianda: 'Servicio disponible (consultar arancel)',
+        vianda: '$56.500 mensuales',
       },
       deadlines: {
         cancelacion: 'Antes de las 09:00 hs a través del formulario de cancelación.',
@@ -157,8 +157,8 @@ export const PAUTAS_LINKS: PortalLink[] = [
       keyPoints: [
         'Para alumnos de 1º a 3º año que asisten a la doble jornada.',
         'Servicio a cargo de la empresa "AULAS GOURMET SRL".',
-        'Costo menú por día: $13.400 facturado a mes vencido con la cuota mensual.',
-        'Servicio de vianda disponible.',
+        'Costo menú por día: $14.100 facturado a mes vencido con la cuota mensual.',
+        'Servicio de vianda: $56.500 mensuales.',
         'Ticket eventual: $15.500 c/u, anotarse hasta las 09:00 hs del mismo día.',
         'Para dar el alta en un servicio debe dar primero la baja del anterior mediante formulario.'
       ],

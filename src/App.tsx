@@ -201,7 +201,7 @@ export default function App() {
                 Servicio de Viandas
               </h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Disponible desde 3º grado de Primaria y en Nivel Medio. Bandejas descartables de aluminio 275 con tapa y rótulo indeleble (nombre, apellido y curso).
+                Disponible desde 3º grado de Primaria y en Nivel Medio ($56.500/mes). Bandejas descartables de aluminio 275 con tapa y rótulo indeleble (nombre, apellido y curso).
               </p>
             </div>
 
