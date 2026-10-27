@@ -31,7 +31,7 @@ export const INITIAL_LINKS: PortalLink[] = [
     badge: 'Formulario Google',
     description: 'Solicitud de vale diario para alumnos que no asisten de manera fija al comedor.',
     highlight: 'Tope de solicitud: hasta las 09:00 hs del mismo día',
-    priceTag: '$14.700 por día',
+    priceTag: '$15.500 por día',
     iconName: 'Ticket',
   },
 ];
@@ -53,7 +53,7 @@ export const PAUTAS_LINKS: PortalLink[] = [
       subtitle: 'Pautas de Almuerzo 2026',
       prices: {
         menuRegular: '$11.600 por día (facturado a mes vencido con cuota)',
-        ticketEventual: '$14.700 por día (habilitada opción vale diario)',
+        ticketEventual: '$15.500 por día (habilitada opción vale diario)',
       },
       deadlines: {
         cancelacion: 'Antes de las 09:00 hs del día a cancelar mediante formulario + aviso por Handing a la maestra.',
@@ -66,7 +66,7 @@ export const PAUTAS_LINKS: PortalLink[] = [
         'Las AUSENCIAS previstas se comunican mediante el formulario de CANCELACIÓN antes de las 09:00 hs del día a cancelar para evitar la facturación.',
         'IMPORTANTE: Siempre que haya una modificación (cancelación diaria, baja definitiva, alta) avisar en simultáneo por Handing a las maestras.',
         'La baja permanente de comedor se gestiona desde el formulario de bajas diarias (Tutorial Baja Definitiva).',
-        'Vale Diario / Ticket eventual: $14.700.'
+        'Vale Diario / Ticket eventual: $15.500.'
       ],
       metodologia: [
         '1. Inscribirse a través del formulario de tickets eventuales.',
@@ -99,8 +99,8 @@ export const PAUTAS_LINKS: PortalLink[] = [
       subtitle: 'Pautas de Almuerzo 2026',
       prices: {
         menuRegular: '1º y 2º grado: $12.600 / día | Resto (3º a 7º): $13.400 / día',
-        ticketEventual: '$14.700 (solicitud hasta las 08:30 hs)',
-        vianda: '$53.000 por mes (a partir de 3º grado)',
+        ticketEventual: '$15.500 (solicitud hasta las 08:30 hs)',
+        vianda: 'A partir de 3º grado (consultar arancel)',
       },
       deadlines: {
         cancelacion: 'Antes de las 09:00 hs del día a cancelar para evitar facturación.',
@@ -111,12 +111,12 @@ export const PAUTAS_LINKS: PortalLink[] = [
         'La INSCRIPCIÓN tiene vigencia mensual y se renueva automáticamente de mes a mes.',
         'Inscripción para días fijos en la semana (no conmutables en caso de ausencias).',
         'Costo menú por día: $12.600 (1º y 2º grado) y $13.400 (resto de los alumnos).',
-        'Ticket eventual: $14.700 solicitando hasta las 08:30 hs del mismo día.',
+        'Ticket eventual: $15.500 solicitando hasta las 08:30 hs del mismo día.',
         'Baja permanente mediante formulario de bajas diarias (Tutorial Baja Definitiva).',
         'Para dar el alta en un servicio, deberá primero dar de baja el que tenga contratado sin excepción.'
       ],
       metodologia: [
-        'Servicio de vianda (disponible a partir de 3º grado): $53.000 por mes.',
+        'Servicio de vianda (disponible a partir de 3º grado).',
         'Embalaje: descartable de aluminio (bandejas 275 con tapa) con rótulo indeleble (nombre, apellido y grado).',
         'Lugar de entrega: al ingreso del turno mañana por el Portón 1 de Gutiérrez en los contenedores indicados.',
         'Solamente se recibirán bandejas que deban ser calentadas (no frizadas). Cada alumno debe llevar lonchera con alimentos fríos.',
@@ -138,7 +138,7 @@ export const PAUTAS_LINKS: PortalLink[] = [
     badge: 'Google Drive PDF',
     description: 'Pautas para 1º a 3º año: servicio de comedor, viandas e ingreso por Portón Agüero.',
     highlight: 'Ticket Eventual hasta las 09:00 hs | Comedor 3er piso',
-    priceTag: 'Menú: $13.400 • Vianda: $53.000',
+    priceTag: 'Menú: $13.400 • Vianda',
     iconName: 'GraduationCap',
     isPauta: true,
     pautaData: {
@@ -146,8 +146,8 @@ export const PAUTAS_LINKS: PortalLink[] = [
       subtitle: 'Pautas de Almuerzo 2026',
       prices: {
         menuRegular: '$13.400 por día (facturado a mes vencido con la cuota)',
-        ticketEventual: '$14.700 c/u (horario tope 09:00 hs del mismo día)',
-        vianda: '$53.000 mensuales',
+        ticketEventual: '$15.500 c/u (horario tope 09:00 hs del mismo día)',
+        vianda: 'Servicio disponible (consultar arancel)',
       },
       deadlines: {
         cancelacion: 'Antes de las 09:00 hs a través del formulario de cancelación.',
@@ -158,8 +158,8 @@ export const PAUTAS_LINKS: PortalLink[] = [
         'Para alumnos de 1º a 3º año que asisten a la doble jornada.',
         'Servicio a cargo de la empresa "AULAS GOURMET SRL".',
         'Costo menú por día: $13.400 facturado a mes vencido con la cuota mensual.',
-        'Servicio de vianda: $53.000 mensuales.',
-        'Ticket eventual: $14.700 c/u, anotarse hasta las 09:00 hs del mismo día.',
+        'Servicio de vianda disponible.',
+        'Ticket eventual: $15.500 c/u, anotarse hasta las 09:00 hs del mismo día.',
         'Para dar el alta en un servicio debe dar primero la baja del anterior mediante formulario.'
       ],
       metodologia: [
